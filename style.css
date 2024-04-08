@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+/* body{
+    
+} */
+.navbar{
+    height: 60px;
+    width: 1550px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width:150px;
+}
+.logo{
+    height: 50px;
+    width:150px;
+    background-image: url("logo5.png");
+    background-size: cover;
+}
+.border{
+   border: 1.5px,solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+#one{
+    color:#cccccc;
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+}
+#two{
+    color: white;
+    font-size: larger;
+    position: relative;
+    left:20px;
+}
+.navadd{
+    border:1.5px solid transparent;
+    width:200px;
+}
+.navadd:hover{
+    border:2px solid white;
+}
+.nav-search{
+    display:flex;
+    height:50px;
+    width: 600px;
+    text-align: center;
+    border-radius: 6px;
+}
+.select-search{
+    color:black;
+    background-color: #cccccc;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px ;
+}
+.search{
+    height: 45px;
+    width: 500px;
+}
+.search-ion{
+    width: 45px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,174,0);
+}
+#three{
+    font-size: 10px;
+    font-weight: 100px;
+}
+.signin{
+    height: 45px;
+    border: 1.5px solid transparent;
+}
+.signin:hover{
+    border: 1.5px solid white;
+}
+.cart{
+    height: 45px;
+    width: 70px;
+    border: 1.5px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart:hover{
+    border: 1.5px solid white;
+}
+.return{
+    border: 1.5px solid transparent;
+}
+#five{
+    font-size: 13px;
+}
+#six{
+    font-size: 20px;
+}
+.return:hover{
+    border: 1.5px solid white;
+}
+.nav-box{
+    height:40px;
+    background-color: #232f3e;
+    display: flex;
+}
+.select{
+    width:50px;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+}
+.opts{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+}
+.moreopts{
+    width:700px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prime{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p{
+    color:white;
+}
+.select:hover{
+    border: 1.5px solid white;
+}
+#a:hover{
+    border: 1.5px solid white;
+}
+#b:hover{
+    border: 1.5px solid white;
+}
+#c:hover{
+    border: 1.5px solid white;
+}
+#d:hover{
+    border: 1.5px solid white;
+}
+#e:hover{
+    border: 1.5px solid white;
+}
+#f:hover{
+    border: 1.5px solid white;
+}
+#g:hover{
+    border: 1.5px solid white;
+}
+#h:hover{
+    border: 1.5px solid white;
+}
+#i:hover{
+    border: 1.5px solid white;
+}
+#j:hover{
+    border: 1.5px solid white;
+}
+.section{
+    background-image: url("first.jpg");
+    height: 600px;
+    background-size:cover;
+}
+.shop{
+    display: flex;
+    position: relative;
+    bottom: 200px;
+    justify-content: space-evenly;
+    background-color: #e1f9fe;
+}
+.box1{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    animation: move1 2S linear 0S 1 alternate;
+}
+.box2{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    animation: move2 2S linear 0S 1 alternate;
+}
+.box3{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    animation: move3 2S linear 0S 1 alternate;
+}
+.a1{
+    height:150px;
+    width: 180px;
+    background-image: url("ac.jpg");
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:60px;
+}
+.a2{
+    height:150px;
+    width: 180px;
+    background-image: url("rig.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:142px;
+}
+.a3{
+    height:150px;
+    width: 180px;
+    background-image: url("mc.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-right:30px;
+    left:240px;
+    bottom: 150px;
+}
+.a4{
+    height:150px;
+    width: 180px;
+    background-image: url("wm.jpg"); 
+    background-size:contain;
+    position: relative;
+    left:240px;
+    bottom: 69px;
+}
+#headings{
+    font-size: medium;
+    color: black;
+    position: relative;
+    left:30px;
+    top:30px;
+    font-size: 28px;
+}
+#text1{
+    color: black;
+    position: relative;
+    top:120px;
+}
+#text2{
+    color: black;
+    position: relative;
+    top:120px;
+}
+#text3{
+    color: black;
+    position: relative;
+    top:120px;
+}
+#text4{
+    color: black;
+    position: relative;
+    top:120px;
+}
+#see1{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:20px;
+}
+.a5{
+    height:150px;
+    width: 180px;
+    background-image: url("c.jpg");
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:50px;
+}
+.a6{
+    height:150px;
+    width: 180px;
+    background-image: url("watch.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:100px;
+}
+.a7{
+    height:150px;
+    width: 180px;
+    background-image: url("foot.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-right:30px;
+    left:240px;
+    bottom: 250px;
+}
+.a8{
+    height:150px;
+    width: 180px;
+    background-image: url("bag.jpg"); 
+    background-size:contain;
+    position: relative;
+    left:240px;
+    bottom: 200px;
+}
+#headings2{
+    font-size: medium;
+    color: black;
+    position: relative;
+    left:30px;
+    top:30px;
+    font-size: 28px;
+}
+#text5{
+    color: black;
+    position: relative;
+    top:150px;
+}
+#text6{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#text7{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#text8{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#see2{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:170px;
+}
+.a9{
+    height:150px;
+    width: 180px;
+    background-image: url("b.jpg");
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:50px;
+}
+.a10{
+    height:150px;
+    width: 180px;
+    background-image: url("bo.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-left: 30px;
+    top:100px;
+}
+.a11{
+    height:150px;
+    width: 180px;
+    background-image: url("n.jpg"); 
+    background-size:contain;
+    position: relative;
+    margin-right:30px;
+    left:240px;
+    bottom: 250px;
+}
+.a12{
+    height:150px;
+    width: 180px;
+    background-image: url("z.jpg"); 
+    background-size:contain;
+    position: relative;
+    left:240px;
+    bottom: 200px;
+}
+#headings3{
+    font-size: medium;
+    color: black;
+    position: relative;
+    left:30px;
+    top:30px;
+    font-size: 28px;
+}
+#text9{
+    color: black;
+    position: relative;
+    top:150px;
+}
+#text10{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#text11{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#text12{
+    color: black;
+    position: relative;
+    top:151px;
+}
+#see3{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:170px;
+}
+.section1{
+    background-color:#e1f9fe;
+    background-size: cover;
+    height:500px;
+    position: relative;
+    bottom: 200px;
+}
+.element1{
+    /* border: 2px solid black; */
+    background-color: white;
+    background-size: cover;
+    height: 350px;
+    width:3800px;
+    position:relative;
+    left: 10px;
+    top:70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.scrol1{
+    background-image: url("one.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 240px;
+    animation: moveall  linear 15s  infinite alternate;
+}
+.scrol2{
+    background-image: url("god.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 240px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol3{
+    background-image: url("carpet.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol4{
+    background-image: url("sofa.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 240px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol5{
+    background-image: url("pillo.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 240px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol6{
+   background-image: url("curturn.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 240px;
+    animation: moveall  linear 15s infinite alternate;
+}
+#top{
+    color:black;
+    position: relative;
+    font-size: 40px;
+    left:20px;
+    top:60px; 
+    animation: moveall  linear 15s infinite alternate;
+}
+@keyframes move{
+    from{
+        width:1500px;
+    }
+    to{
+        width:3000px;
+    }
+}
+@keyframes move1{
+    from{
+       transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes move2{
+    from{
+       transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes move3{
+    from{
+       transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.scrol7{
+    background-image: url("curturn1.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol8{
+    background-image: url("curturn2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol9{
+    background-image: url("bed1.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol10{
+    background-image: url("bed2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol11{
+    background-image: url("diningtable.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol12{
+    background-image: url("sofa1.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol13{
+    background-image: url("carpet.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+@keyframes moveall{
+    from{
+        transform: translatex(-3000px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+.shop1{
+    display: flex;
+    position: relative;
+    bottom: -100px;
+    justify-content: space-evenly;
+    background-color: #eefafc;
+}
+.box4{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    /* animation: move1 2S linear 0S 1 alternate; */
+}
+.a13{
+    height:400px;
+    width: 400px;
+    background-image: url("ear.jpg");
+    background-size:contain;
+    position:relative;
+    margin-left: 30px;
+    top:60px;
+}
+#text13{
+    color: black;
+    position: relative;
+    top:400px;
+}
+#see3{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:-100px;
+}
+.box5{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-between;
+    /* animation: move1 2S linear 0S 1 alternate; */
+}
+.a14{
+    height:400px;
+    width: 400px;
+    background-image: url("tshirt.jpg");
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+    top:60px;
+}
+#text14{
+    color: black;
+    position: relative;
+    top:400px;
+}
+#see4{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:-100px;
+}
+.box6{
+    height:500px;
+    width:450px;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: white;
+    flex-direction: column; 
+    justify-content: space-between;
+    /* animation: move3 2S linear 0S 1 alternate; */
+}
+.a15{
+    height:400px;
+    width: 400px;
+    background-image: url("sugar.jpg");
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+    top:60px;
+}
+#text15{
+    color: black;
+    position: relative;
+    top:400px;
+}
+#see5{
+    color:blue;
+    position: relative;
+    left: 30px;
+    bottom:-100px;
+}
+.line1{
+    height: 100px;
+    background-color:#ffffff;
+    background-size: cover;
+    position: relative;
+    top: 200px;
+}
+#line{
+    color: black;
+    position: relative;
+    left:650px;
+    top:100px;
+}
+.yellow{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: orange;
+    background-size: cover;
+    position: relative;
+    left:620px;
+    top:120px;
+}
+.back{
+    height: 50px;
+    background-color: #343f4c;
+    background-size: cover;
+    position: relative;
+    top:300px;
+}
+#info{
+    color: white;
+    position: relative;
+    left:730px;
+    top:10px;
+}
+.last{
+    height: 400px;
+    background-color: #232f3e;
+    background-size: cover;
+    position: relative;
+    top:300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#outline a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#big{
+    font-size: 20px;
+}
+.last1{
+    height: 100px;
+    background-color:black; 
+    background-size: cover;
+    position: relative;
+    top:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.amo{
+    height: 40px;
+    width: 100px;
+    background-image:url("logo5.png");
+    background-size: contain;
+    position: relative;
+    top:10px;
+}
+#bar{
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top:10px;
+}
+.last2{
+    height: 100px;
+    background-color:black;
+    background-size: cover;
+    position: relative;
+    top:150px;
+}
+#inline {
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
