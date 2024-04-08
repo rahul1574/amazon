@@ -3,12 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
     border:border-box;
 }
-/* body{
-    
-} */
+body{
+    width:auto;
+    height: auto;
+}
 .navbar{
     height: 60px;
-    width: 1550px;
+    /* width: auto; */
     background-color: black;
     color: white;
     display:flex;
@@ -263,6 +264,9 @@ p{
     position: relative;
     top:120px;
 }
+a{
+    text-decoration: none;
+}
 #text2{
     color: black;
     position: relative;
@@ -438,7 +442,7 @@ p{
     background-color: white;
     background-size: cover;
     height: 350px;
-    width:3800px;
+    width:6500px;
     position:relative;
     left: 10px;
     top:70px;
@@ -507,7 +511,7 @@ p{
 }
 @keyframes move1{
     from{
-       transform: translateX(-500px);
+       transform: translateX(-2000px);
     }
     to{
         transform: translateX(0px);
@@ -515,7 +519,7 @@ p{
 }
 @keyframes move2{
     from{
-       transform: translateY(-1000px);
+       transform: translateY(-2000px);
     }
     to{
         transform: translateY(0px);
@@ -523,7 +527,7 @@ p{
 }
 @keyframes move3{
     from{
-       transform: translateX(500px);
+       transform: translateX(2000px);
     }
     to{
         transform: translateX(0px);
@@ -573,6 +577,33 @@ p{
 }
 .scrol13{
     background-image: url("carpet.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}.scrol14{
+    background-image: url("loadshiva.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol15{
+    background-image: url("tv.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol16{
+    background-image: url("table.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    animation: moveall  linear 15s infinite alternate;
+}
+.scrol17{
+    background-image: url("cake.jpg");
     background-size: cover;
     height: 300px;
     width: 250px;
@@ -778,3 +809,71 @@ p{
     display: flex;
     justify-content: space-evenly;
 }
+.last3{
+    height: 150px;
+    background-color:black; 
+    background-size:cover;
+    position: relative;
+    top:1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lastbox1 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox2 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox3 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox4 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox5 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox6 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox7 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#lastbox8 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#f1{
+    font-size: 40px;
+}
+#lastbox9 a{
+    display: block;
+    color: #c7d1de;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
